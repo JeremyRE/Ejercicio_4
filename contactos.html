@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+     <!--SECCION DE META DATA-->
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="J.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog, Videojuegos, Top, Historia</title>
+    <meta name="description" content="Blog Y Top Videojuegos De La Historia">
+    <meta name="keywords" content="Blog, Videojuegos, Top, Historia">
+    <meta name="author" content="Jeremy">
+    <meta name="copyright" content="Jeremy" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+       <!--ENCABEZADO-->
+        <header>
+          <h1>Jeremy's Blog</h1>
+        </header> 
+      <!--NAVEGACION-->
+      <nav>
+ 
+        <div class="topnav" id="myTopnav">
+          <a href="index.html">inicio</a>
+          <a href="sobremi.html">Sobre Mi</a>
+          <a href="contactos.html" class="active">Contactos</a>
+
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </nav>
+    <!--CONTENIDO-->
+    <section id="contenido">
+
+      <!--ARTICULOS-->
+      <article>
+        <h2>Contacto</h2>
+        <article>
+           
+          <div class="formulario">
+                <form action="#">
+                  <label for="fname">Nombre</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Escriba Su Nombre...">
+              
+                  <label for="lname">Apellido</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Escriba Su Apellido...">
+              
+                  <label for="country">Pais</label>
+                  <select id="country" name="country">
+                    <option value="australia">Rep. Dominicana</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">España</option>
+                    <option value="usa">Francia</option>
+                    <option value="canada">Haiti</option>
+                    <option value="usa">Venezuela</option>
+                  </select>
+              
+                  <label for="subject">Mensaje</label>
+                  <textarea id="subject" name="subject" placeholder="Escribe Tu Mensaje Aquí..." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Enviar">
+                </form>
+              </div>
+            
+          </article>
+     
+      
+          </article> 
+    
+          <div class="redes">
+            <h2>Sigueme en mi Redes Sociales</h2>
+
+            <!-- Agregamos font awesome icons -->
+            <a href="https://www.youtube.com/channel/UC2mZqBLE8q9XUTJ7gqiqRxA" class="fa fa-youtube-square" style="font-size:30px"></a>
+            <a href="https://www.facebook.com/VijuegoStore?locale=es_LA" class="fa fa-facebook-square" style="font-size:30px"></a>
+            <a href="https://twitter.com/Jeremy80869088" class="fa fa-twitter-square" style="font-size:30px"></a>
+            <a href="https://github.com/JeremyRE/Ejercicio_4" class="fa fa-github-square" style="font-size:30px"></a>
+        
+          </div>
+        
+
+</section>
+        <!--PUBLICIDAD-->
+        <aside>
+        
+          <h2><Strong>Hollow Knight: Silksong</Strong></h2>
+                    <a href="https://hollowknightsilksong.com/"><img class="img_aside" src="https://cdn.akamai.steamstatic.com/steam/apps/1030300/capsule_616x353.jpg?t=1695443850" alt=""></a>
+                
+            <p class="aside_texto"><Strong>Año 2024 PORFAVOR </Strong>Hollow Knight: Silksong es la secuela de Hollow Knight, uno de los videojuegos de acción y
+                plataformas del estilo metroidvania más celebrados y exitosos de los últimos tiempos. Encarnando a Hornet, princesa protectora de
+                Hallownest, deberemos sobrevivir en un nuevo mundo peligroso y desconocido.</p>
+
+        
+        <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/pFAknD_9U7c?si=ynPIfbspY9cOfXw_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br>
+      <button class="button">
+
+        <a href="https://vandal.elespanol.com/lanzamientos/0/videojuegos/13/2024" target="_blank"> Mas Estrenos</a>
+      </button>
+        <BR>
+        <BR>
+          <BR>
+          <BR>
+            <BR>
+              <BR>
+        
+        </aside>
+        
+        <div class="clearfix" ></div>
+
+          <!--FOOTER O PIE DE PAGINA-->
+           <!--FOOTER O PIE DE PAGINA-->
+           <footer>
+            <p class="footer"> © 2023 Creado Por Jeremy</p>
+          </footer>
+        </div>
+      
+
+     <!--FUNCION JAVASCRIPT PARA EL MENU-->
+
+        <script>
+          function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+            } else {
+              x.className = "topnav";
+            }
+          }
+          </script>
+
+  </body>
+</html>
